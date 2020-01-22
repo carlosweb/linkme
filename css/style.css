@@ -51,7 +51,7 @@ figcaption {
     text-align: center;
 }
 
-figcaption {
+figcaption a:hover{
     text-decoration: none;
 }
 
@@ -59,7 +59,7 @@ figcaption {
     margin-top: 15px;
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
 
     header .profile {
         margin-top: 50px;
