@@ -6,6 +6,7 @@
 body {
     background: url(../images/abstract-art-black-background-blur-1040499.jpg) no-repeat center center fixed;
     width: 100%;
+    background-size: cover;
     height: 54rem;
 }
 
