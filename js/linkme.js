@@ -8,6 +8,8 @@ function enviar (){
 
     if (emailValue == 0 || areaValue == 0) {
         alert('Preecha os dados abaixo!')
+    } else if (emailValue == '' || areaValue == '') {
+        alert('Preecha os dados abaixo!')
     } else {
         database.ref(timestamp).set({
             email: emailValue,
@@ -15,5 +17,4 @@ function enviar (){
         })
         alert('Sua mensagem foi enviada com sucesso!')
     }
-    
 }
