@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +10,7 @@ html, body {
     background: rgb(9,9,121);
     background: linear-gradient(0deg, rgba(0, 54, 172, 1) 35%, rgba(76, 155, 231, 1) 100%);
     background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
 }
 
 figure{
@@ -29,6 +32,11 @@ figure img{
     color: #ffffff;
 }
 
+.name h2{
+    font-weight: 700;
+}
+
+
 /* ============ social css =============== */
 .social {
     background: rgba(255, 255, 255, 0.3);
@@ -37,7 +45,7 @@ figure img{
     justify-content: space-evenly;
     display: flex;
     align-items: center;
-    margin: 20px 0 20px 0;;
+    margin: 20px 0 20px 0;
 }
 
 .social a{
@@ -81,7 +89,6 @@ figure img{
 
 .introduce p{
     color: rgba(3, 218, 198, 1);
-    line-height: 4px;
 }
 
 /* 
